@@ -231,9 +231,36 @@
             <point key="canvasLocation" x="725.95419847328242" y="713.38028169014092"/>
         </scene>
         <!--課題8-->
+        <scene sceneID="V9M-dK-lsT">
+            <objects>
+                <viewController id="obI-fa-sBI" userLabel="課題8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i6K-V4-OBS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="65Y-Uf-E38">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0YS-Hh-Gzg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="65Y-Uf-E38" firstAttribute="leading" secondItem="i6K-V4-OBS" secondAttribute="leading" id="Abx-z7-CUX"/>
+                            <constraint firstItem="65Y-Uf-E38" firstAttribute="top" secondItem="i6K-V4-OBS" secondAttribute="top" id="E54-2S-TV1"/>
+                            <constraint firstAttribute="trailing" secondItem="65Y-Uf-E38" secondAttribute="trailing" id="Xma-Rf-fTR"/>
+                            <constraint firstAttribute="bottom" secondItem="65Y-Uf-E38" secondAttribute="bottom" id="pKK-oS-aW4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fr7-qw-pd9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450" y="713"/>
+        </scene>
+        <!--課題9-->
         <scene sceneID="Cug-cj-3Ig">
             <objects>
-                <viewController id="6b5-2u-5Mv" userLabel="課題8" sceneMemberID="viewController">
+                <viewController id="6b5-2u-5Mv" userLabel="課題9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8m0-UI-YxC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,12 +282,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BaB-Xe-eaf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1450" y="713"/>
+            <point key="canvasLocation" x="2198" y="725"/>
         </scene>
-        <!--課題9-->
+        <!--課題10-->
         <scene sceneID="Q4z-e3-Vr0">
             <objects>
-                <viewController id="4fW-eX-Wqf" userLabel="課題9" sceneMemberID="viewController">
+                <viewController id="4fW-eX-Wqf" userLabel="課題10" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S2n-wB-S1z">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -286,7 +313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmM-V3-4WK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2152" y="713"/>
+            <point key="canvasLocation" x="2924" y="726"/>
         </scene>
     </scenes>
     <resources>
